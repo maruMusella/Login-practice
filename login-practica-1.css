@@ -1,0 +1,107 @@
+* {box-sizing: border-box;}
+html, body { height: 100%;}
+
+body {
+    background-color: #f1f1f1f1;
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 130px 130px 20% 20%;
+}
+
+
+/* Create */
+.create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+
+h1 {
+    font-weight: 100;
+    color: var(--neutral-almost-black, #111);
+    font-size: 24px;
+}
+
+.content {
+    background-color: #ffff;
+    padding: 24px;
+    border-radius: 8px;
+    display: block;
+    width: 80%;
+    max-width: 420px;
+
+}
+
+
+/* Form */
+.form label {
+    display: block;
+}
+
+.form input {
+    display: block;
+    border: 1px;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    background-color: #f1f1f1f1;    
+}
+
+label {
+    padding: 8px 0;
+    color: #111;
+    font-size: 14px;
+}
+
+#password {
+    margin: 0 0 16px 0;
+}
+
+#email {
+    margin: 0 0 16px 0;
+}
+
+.form .login-botom [type="submit"] {
+    background-color: #007AFF;
+    margin-top: 24px;
+    border: none;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form .login-botom [type="submit"]:active {
+    background-color: #000000;
+}
+
+label a {
+    float: right;
+    color: #007AFF;
+    font-size: 14px;
+
+}
+
+
+/* Legal */
+
+.legal {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.legal p {
+    font-size: 14px;
+    color: #111111;
+}
+
+.legal a {
+    color: #007AFF;
+}
